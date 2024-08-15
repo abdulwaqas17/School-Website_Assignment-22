@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=The+Nautigal:wght@400;700&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+/* Variable classes */
+:root{
+
+    --purple:rgb(110,14,253);
+    --yellow:rgb(239,167,45);
+    --pink:rgb(230,46,96);
+    --text-gray:rgb(58, 58, 58);
+
+}
+
+/* utility classes */
+.flex{
+
+    display: flex;
+
+}
+
+.white{
+
+    color: white;
+
+}
+
+.center{
+
+    text-align: center;
+
+}
+
+
+/* STYLING OF SCHOOL START */
+
+/* styling of header start */
+header{
+
+    background-image: url(./assets/cover-photo.jpg);
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-left{
+
+    width: 360px;
+    
+}
+
+
+header h3{
+
+    font-size:1.6rem;
+    font-weight: bold;
+    letter-spacing: .6rem;
+
+}
+
+header h1{
+
+    font-size:5rem;
+    padding-block: 25px 50px;
+
+}
+
+header button{
+
+    padding: 14px 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+}
+
+header button:hover{
+
+    background-color: white;
+    color: var(--pink);
+    cursor: pointer;
+}
+
+header img{
+
+    width: 550px;
+    height: 660px;
+
+}
+
+/* STYLING FOR SECTIONS START */
+
+/* styling of section-one start */
+.container{
+
+    margin-inline: 100px;
+}
+
+.Section-One-top{
+
+    width: 60%;
+    margin:50px auto 100px;
+    text-align: center;
+}
+
+.Section-One-top h2{
+
+    color: var(--purple);
+    font-size: 3.7rem;
+    padding-bottom: 30px;
+    font-weight: 900;
+
+}
+
+.Section-One-top p{
+
+    color: var(--text-gray);
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.Section-one-bottom{
+
+    margin-inline: 50px;
+    justify-content: space-between;
+}
+
+.Section-one-bottom-box h3{
+
+    color: var(--purple);
+    font-size: 2rem;
+}
+
+.Section-one-bottom-box h6{
+
+    color: var(--pink);
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.Section-one-bottom-box ul{
+
+    list-style: none;
+
+}
+
+.Section-one-bottom-box ul li{
+
+    color: var(--text-gray);
+    padding-block: 10px;
+    font-size: 1.2rem;
+}
+
+.Section-one-bottom-box ul li i{
+
+    color: var(--pink);
+}
+
+.learn-more{
+
+    background-color: var(--purple);
+    color: white;
+    padding: 15px 36px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 0.1rem;
+    margin-top: 40px;
+
+}
+
+.learn-more:hover{
+
+    background-color: var(--pink);
+    cursor: pointer;
+}
