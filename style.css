@@ -40,6 +40,27 @@
 }
 
 
+.learn-more{
+
+    background-color: var(--purple);
+    color: white;
+    padding: 15px 36px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 0.1rem;
+
+}
+
+p{
+
+    color: var(--text-gray);
+    line-height: 2rem;
+    font-size: 1.1rem;
+
+}
+
+
 /* STYLING OF SCHOOL START */
 
 /* styling of header start */
@@ -117,20 +138,13 @@ header img{
     text-align: center;
 }
 
+
 .Section-One-top h2{
 
     color: var(--purple);
     font-size: 3.7rem;
     padding-bottom: 30px;
     font-weight: 900;
-
-}
-
-.Section-One-top p{
-
-    color: var(--text-gray);
-    line-height: 2rem;
-    font-size: 1.1rem;
 }
 
 .Section-one-bottom{
@@ -171,21 +185,308 @@ header img{
     color: var(--pink);
 }
 
-.learn-more{
-
-    background-color: var(--purple);
-    color: white;
-    padding: 15px 36px;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    letter-spacing: 0.1rem;
-    margin-top: 40px;
-
+.Section-one-bottom-box .learn-more{
+   margin-top: 40px;
+    
 }
 
 .learn-more:hover{
 
     background-color: var(--pink);
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* styling of section-two start */
+.Section-two{
+
+    padding-block: 100px 50px;
+}
+.Section-two-header{
+
+    margin:50px auto 100px;
+    text-align: center;
+}
+
+.Section-two-header h2{
+
+    color: var(--purple);
+    font-size: 3.7rem;
+    padding-bottom: 30px;
+    font-weight: 900;
+
+}
+
+.Section-two-header p{
+
+    width: 60%;
+    margin: auto;
+}
+
+.basis{
+
+    flex-basis: 50%;
+}
+
+.text{
+
+    padding: 40px 30px;
+}
+
+.text h3{
+
+    font-size: 2rem;
+}
+
+.text p{
+
+    padding-block: 40px;
+}
+
+
+
+/* styling of section-bar start */
+.Section-bar{
+
+    background-color: var(--purple);
+    justify-content: space-evenly;
+    align-items: center;
+    padding-block: 60px 70px;
+
+}
+
+.Section-bar h2{
+
+    font-size: 3.5rem;
+    padding-block:0px 30px;
+    
+}
+
+.Section-bar h4{
+
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #f0ecec;
+    font-weight: 500;
+
+}
+
+.Section-bar-right{
+
+    color: var(--yellow);
+}
+
+.Section-bar-right h3{
+
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.Section-bar-right .bar-icons{
+
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Section-bar-right i{
+
+    font-size: 2rem;
+    padding-inline: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* styling of section-lines start */
+.Section-lines{
+
+    padding-block: 60px;
+
+}
+
+
+
+.Section-lines h2{
+
+    color: var(--purple);
+    font-size: 3.5rem;
+    padding-inline: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.Section-lines-boxes{
+
+    justify-content: space-around;
+
+}
+
+.Section-lines-box{
+
+    padding:40px 30px ;
+    border-left: 10px solid var(--purple);
+}
+
+.Section-lines-box h3{
+
+    color: var(--purple);
+    font-size: 1.6rem;
+    font-weight: 900;
+
+}
+
+.Section-lines-box h6{
+
+    font-size: 1.1rem;
+    padding-block: 20px;
+    color: #3a3939;
+
+}
+
+.Section-lines-box p{
+
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+}
+
+.Section-lines-box p:hover{
+
+    cursor: pointer;
+    color: var(--pink);
+}
+
+
+
+
+.Section-chooseUs{
+
+    background-color: var(--purple);
+    padding: 60px 150px 100px;
+}
+
+.Section-chooseUs h2{
+
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.Section-chooseUs p{
+
+    font-size: 1.2rem;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    line-height: 2.3rem;
+    padding: 30px 150px 60px;
+
+}
+
+.Section-chooseUs-numbers{
+
+    justify-content: space-around;
+
+}
+
+.Section-chooseUs-numbers h3{
+
+    color: var(--yellow);
+    font-size: 3.5rem;
+    text-align: center;
+    
+}
+
+.Section-chooseUs-numbers h4{
+
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    padding-top: 15px;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+
+
+}
+
+
+
+
+
+
+.Section-contact-us{
+
+    padding-top: 100px;
+
+}
+
+.Section-contact-us h2{
+
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+.Section-contact-us-header p{
+
+    width: 60%;
+    margin:40px auto 30px;
+    text-align: center;
+
+}
+
+.Section-contact-us-box{
+
+    flex-basis: 25%;
+    color: white;
+    padding: 30px 30px 60px;
+
+}
+
+.Section-contact-us-box h3{
+
+    font-size: 2rem;
+    padding-block:15px 20px;
+    
+}
+
+.Section-contact-us-box p{
+
+    color: white;
+
+}
+
+.Section-contact-us-box-one{
+
+    background-color: var(--purple);
+    
+}
+
+.Section-contact-us-box-two{
+
+    background-color: var(--yellow);
+
+}
+
+.Section-contact-us-box-three{
+
+    background-color: var(--pink);
+
+}
+
+.Section-contact-us-box-four{
+
+    background-color: rgb(90, 203, 255);
+
 }
