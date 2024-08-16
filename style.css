@@ -62,6 +62,11 @@ p{
 
 
 /* STYLING OF SCHOOL START */
+.school{
+
+    overflow: hidden;
+
+}
 
 /* styling of header start */
 header{
@@ -79,6 +84,7 @@ header{
 .header-left{
 
     width: 360px;
+    padding-left: 50px;
     
 }
 
@@ -90,6 +96,17 @@ header h3{
     letter-spacing: .6rem;
 
 }
+
+
+/* Animation for header h3 */
+header h3{
+
+    animation:fadeInTopLeft;
+    /* animation-delay: 2s; */
+    animation-duration: 100s;
+    /* animation-iteration-count: infinite; */
+}
+
 
 header h1{
 
@@ -146,6 +163,7 @@ header img{
     padding-bottom: 30px;
     font-weight: 900;
 }
+
 
 .Section-one-bottom{
 
@@ -369,6 +387,10 @@ header img{
 
 
 
+
+
+
+/* styling of section-chooseUs start */
 .Section-chooseUs{
 
     background-color: var(--purple);
@@ -424,6 +446,7 @@ header img{
 
 
 
+/* styling of section-contact-us start */
 .Section-contact-us{
 
     padding-top: 100px;
@@ -441,7 +464,7 @@ header img{
 .Section-contact-us-header p{
 
     width: 60%;
-    margin:40px auto 30px;
+    margin:30px auto 50px;
     text-align: center;
 
 }
@@ -457,13 +480,15 @@ header img{
 .Section-contact-us-box h3{
 
     font-size: 2rem;
-    padding-block:15px 20px;
+    padding-block:30px 20px;
     
 }
 
 .Section-contact-us-box p{
 
     color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
 
 }
 
@@ -489,4 +514,99 @@ header img{
 
     background-color: rgb(90, 203, 255);
 
+}
+
+.contact-us-icon i{
+
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+/* styling of section-footer-img start */
+.Section-footer-img{
+
+    width: 100%;
+    height: 700px;
+    background-image: url(./assets/footer-img.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/* styling of section-footer-details start */
+.Section-footer-details{
+
+    padding: 80px 10px 100px;
+    background-color: var(--purple);
+
+}
+
+.Section-footer-details-boxes{
+
+    justify-content: space-around;
+   
+}
+
+.Section-footer-details-box{
+
+    flex-basis: 25%;
+}
+
+
+.Section-footer-details-boxes h2{
+
+    color: white;
+}
+
+
+.Section-footer-details-boxes p{
+
+    color: white;
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.call{
+
+    padding-top: 5px !important;
+}
+
+.call i{
+
+    padding-right: 10px;
+    color: var(--yellow);
+}
+
+
+
+
+/* styling of footer start */
+footer{
+
+    height: 80px;
+    background-color: rgb(10, 15, 24);
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+
+    color: white ;
+    font-size: 0.9rem;
+}
+
+footer em{
+
+    text-decoration: underline;
+    /* font-weight: bold; */
+    color: var(--pink);
 }
